@@ -19,7 +19,7 @@ h2{
     height: 100vh;
 }
 #admin    {
-    background-image: url(/admin_block.jpeg);
+    background-image: url("/admin_block.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
