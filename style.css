@@ -1,0 +1,60 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 60px;
+    background: #eee;
+    padding: 8px 24px;
+    border-radius: 16px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+#admin    {
+    background-image: url(/admin_block.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#ts {
+    background-image: url(/ts.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#library {
+    background-image: url(/library.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#eee {
+    background-image: url(/EEE_dept.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    font-size: bold;
+    font-family: display;
+    text-align: center;
+    justify-content: center;
+    font-size: 180%;
+    padding: 150px;
+}
+.text:nth-child(2)  {
+    background: rgb(193, 200, 228);
+}
+.text:nth-child(4) {
+    background: lightgoldenrodyellow;
+}
+.text:nth-child(6) {
+    background: rgb(255, 192, 203, 0.5);
+}
+.text:nth-child(8){
+    background: rgb(194, 185, 176, 0.5);
+}
