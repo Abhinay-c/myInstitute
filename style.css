@@ -24,17 +24,17 @@ h2{
     background-attachment: fixed;
 }
 #ts {
-    background-image: url(/ts.jpg);
+    background-image: url(ts.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 #library {
-    background-image: url(/library.jpg);
+    background-image: url(library.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 #eee {
-    background-image: url(/EEE_dept.png);
+    background-image: url(EEE_dept.png);
     background-size: cover;
     background-attachment: fixed;
 }
