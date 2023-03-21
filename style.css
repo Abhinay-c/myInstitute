@@ -58,3 +58,21 @@ h2{
 .text:nth-child(8){
     background: rgb(194, 185, 176, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+    #admin {
+        background-image: url('admin_mobile.jpeg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #eee {
+        background-image: url('EEE_mobile.png');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #library {
+        background-image: url('library_mobile.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
