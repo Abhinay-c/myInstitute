@@ -1,8 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700);
+
 *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* *{
     border: 0;
     padding: 0;
     margin: 0;
-}
+} */
 h2{
     font-size: 60px;
     background: #eee;
@@ -19,32 +27,34 @@ h2{
     height: 100vh;
 }
 #admin    {
-    background-image: url(admin_block.jpeg);
+    background-image: url(assets/admin_block.jpeg);
     background-size: cover;
     background-attachment: fixed;
 }
 #ts {
-    background-image: url(ts.jpg);
+    background-image: url(assets/ts.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 #library {
-    background-image: url(library.jpg);
+    background-image: url(assets/library.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 #eee {
-    background-image: url(EEE_dept.png);
+    background-image: url(assets/EEE_dept.png);
     background-size: cover;
     background-attachment: fixed;
 }
 .text{
+    align-items: center;
     font-size: bold;
     font-family: display;
     text-align: center;
     justify-content: center;
     font-size: 180%;
     padding: 150px;
+    min-height: 25vh;
 }
 .text:nth-child(2)  {
     background: rgb(193, 200, 228);
